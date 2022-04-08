@@ -1,8 +1,5 @@
 // Write your code here!
-//someElement.removeChild(someChildElement);
-const mainElement = document.getElementById('main');
-
-mainElement.remove()
+const main = document.querySelector('#main').remove();
 
 const newHeader = document.createElement('h1');
 
